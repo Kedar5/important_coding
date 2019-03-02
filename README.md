@@ -24,7 +24,7 @@ Note: If the image is purely decorative, using an empty alt attribute is a best 
 10) Make your text input a required field, so that your user can't submit the form without completing this field.
 
 11) 
-<form>
+<!--<form>
   <label for = "firstname"> First Name
     <input id = "firstname" type="text" placeholder="Enter first name" name="first name">
   </label></br>
@@ -44,7 +44,7 @@ Note: If the image is purely decorative, using an empty alt attribute is a best 
     <input id = "noid" type="radio" value = "no" name = "yesorno">
   </label></br>
   <button type = "submit">Submit</button>
-</form>
+</form> -->
 
 12)Set the first of your radio buttons and the first of your checkboxes to both be checked by default.
 To do this, just add the word "checked" to the inside of an input element. For example:
