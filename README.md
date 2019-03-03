@@ -53,7 +53,6 @@ To do this, just add the word "checked" to the inside of an input element. For e
 13) At the top of your document, you need to tell the browser which version of HTML your page is using. HTML is an evolving language, and is updated regularly. Most major browsers support the latest specification, which is HTML5. However, older web pages may use previous versions of the language.
 
 You tell the browser this information by adding the <!DOCTYPE ...> tag on the first line, where the "..." part is the version of HTML. For HTML5, you use <!DOCTYPE html>.
-
 <!DOCTYPE html>
 <html>
   <!-- Your HTML code goes here -->
@@ -118,3 +117,26 @@ the variable can only be used inside the class where it is declared. To avoid th
   }
 }
 31) Another declaration of colors can be added to make up for the browser compatibility issues with the code.
+
+32) In web development, HTML gives structure and semantics to a page's content, and CSS controls the layout and appearance of it.
+
+33) text-align: justify; causes all lines of text except the last line to meet the left and right edges of the line box.
+
+text-align: center; centers the text
+
+text-align: right; right-aligns the text
+
+And text-align: left; (the default) left-aligns the text.
+
+34)  With the strong tag, the browser applies the CSS of font-weight: bold; to the element.4
+
+35) Try to avoid using the u tag when it could be confused for a link. Anchor tags also have a default underlined formatting.
+
+36) height, width.
+
+37) <strong></strong>    -> font-weight:bold;
+    <u></u>              -> text-decoration:underline;
+    <em></em>            -> font-style:italic;
+    <s></s>              -> text-decoration:line-through;
+    <hr>                 -> used to add a horizontal line across the width of the containing element.
+    
