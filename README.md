@@ -70,3 +70,51 @@ Metadata elements, such as link, meta, title, and style, typically go inside the
     <!-- page contents -->
   </body>
 </html>
+
+15)font-family: FAMILY_NAME, GENERIC_NAME;.
+The GENERIC_NAME is optional, and is a fallback font in case the other specified font is not available. This is covered in the next challenge.
+Family names are case-sensitive and need to be wrapped in quotes if there is a space in the name. For example, you need quotes to use the "Open Sans" font, but not to use the Lobster font. Generic font family names are not case-sensitive. Also, they do not need quotes because they are CSS keywords.
+
+16) CSS borders have properties like style, color,radius and width.
+
+17) border-radius of 50% makes the image have circular border.
+
+18) id attributes should be unique. Browsers won't enforce this, but it is a widely agreed upon best practice. So please don't give more than one element the same id attribute
+
+19) id is not reusable and should only be applied to one element. An id also has a higher specificity (importance) than a class so if both are applied to the same element and have conflicting styles, the styles of the id will be applied.
+
+20) em is based on the size of an element's font. If you use it to set the font-size property itself, it's relative to the parent's font-size.
+
+21) you can style your body element just like any other HTML element, and all your other elements will inherit your body element's styles.
+
+23) It doesn't matter which order the classes are listed in the HTML element. However, the order of the class declarations in the <style> section are what is important. The class declared last overrides the style properties of the class declared before that.
+  
+24) if the id and class having same property are applied, id is preferred EVEN IF THE CLASS IS DECLARED AFTER IT.
+
+25) inline styling > id > class. inline overrides all CSS declarations in the style element.
+
+26) Add the keyword !important to your pink-text element's color declaration to make 100% sure that your h1 element will be pink. ex: color: pink !important; 
+    This is the most powerful and has the highest preference when compared to the other types.
+    !important > inline styling > id > class
+
+27) [type:'radio']{   //helps the spacing around the radio button. only margin is used not padding.
+      margin: 20px 10px 30px 40px;   
+    }
+   
+28) --penguin-skin: gray;  #This will create a variable named --penguin-skin and assign it the value of gray.
+
+29) After you create your variable, you can assign its value to other CSS properties by referencing the name you gave it.
+    background: var(--penguin-skin);
+This will change the background of whatever element you are targeting to gray because that is the value of the --penguin-skin variable.
+
+30) background: var(--penguin-skin, black); #black is the fallback value if the variable --penguin-skin wasnt located.
+the variable can only be used inside the class where it is declared. To avoid this, the variables are declared inside the 
+:root{     //this is like the container of all the html. like the html tag.
+} 
+31) media query are used to apply certain changes at a particular size
+@media(max-size:40px){
+  :root{
+    variable : black;
+  }
+}
+31) Another declaration of colors can be added to make up for the browser compatibility issues with the code.
