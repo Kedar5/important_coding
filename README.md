@@ -140,3 +140,23 @@ And text-align: left; (the default) left-aligns the text.
     <s></s>              -> text-decoration:line-through;
     <hr>                 -> used to add a horizontal line across the width of the containing element.
     
+38) rgba() is added to the background-color
+    hex is added to the color
+    
+39) he box-shadow property takes values for offset-x (how far to push the shadow horizontally from the element), offset-y (how far to push the shadow vertically from the element), blur-radius, spread-radius and a color value, in that order. The blur-radius and spread-radius values are optional.
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); #multiple shadows are present.
+
+40) The opacity property in CSS is used to adjust the opacity, or conversely, the transparency for an item.
+
+    A value of 1 is opaque, which isn't transparent at all.
+    A value of 0.5 is half see-through.
+    A value of 0 is completely transparent.
+    
+41) text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: initial;
+    text-transform: capitalize;
+    text-transform: inherit;
+    text-transform: none;
+    
+ 42) CSS offers the line-height property to change the height of each line in a block of text. As the name suggests, it changes the amount of vertical space that each line of text gets.
